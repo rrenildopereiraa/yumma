@@ -320,6 +320,66 @@
     border-width: 1px;
 }
 
+.t-white {
+    color: var(--white);
+}
+
+.t-black {
+    color: var(--black);
+}
+
+.t-red {
+    color: var(--red);
+}
+
+.t-yellow {
+    color: var(--yellow);
+}
+
+.t-green {
+    color: var(--green);
+}
+
+.t-teal {
+    color: var(--teal);
+}
+
+.t-cyan {
+    color: var(--cyan);
+}
+
+.t-blue {
+    color: var(--blue);
+}
+
+.t-indigo {
+    color: var(--indigo);
+}
+
+.t-violet {
+    color: var(--violet);
+}
+
+.t-pink {
+    color: var(--pink);
+}
+
+.t-rose {
+    color: var(--rose);
+}
+
+.t-light {
+    color: var(--light);
+}
+
+.t-gray {
+    color: var(--gray);
+}
+
+.t-dark {
+    color: var(--dark);
+}
+
 /* --- Typography --- */
 .fs-8 {
     font-size: 8px;
@@ -377,15 +437,15 @@
     text-align: end;
 }
 
-.tdl-none {
+.td-none {
     text-decoration-line: none;
 }
 
-.tdl-underline {
+.td-underline {
     text-decoration-line: underline;
 }
 
-.t-break-word {
+.ow-break-word {
     overflow-wrap: break-word;
 }
 
