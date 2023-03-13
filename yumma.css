@@ -73,10 +73,10 @@ body {
 }
 
 .dir-c {
-    top: 0px;
-    right: 0px;
     bottom: 0px;
     left: 0px;
+    right: 0px;
+    top: 0px;
 }
 
 .dir-l {
@@ -668,6 +668,223 @@ body {
     width: 50%;
 }
 
+/* --- Spacing --- */
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-64 {
+    margin-bottom: 64px;
+}
+
+.ml-4 {
+    margin-left: 4px;
+}
+
+.ml-8 {
+    margin-left: 8px;
+}
+
+.ml-16 {
+    margin-left: 16px;
+}
+
+.ml-32 {
+    margin-left: 32px;
+}
+
+.ml-64 {
+    margin-left: 64px;
+}
+
+.mr-4 {
+    margin-right: 4px;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+.mr-32 {
+    margin-right: 32px;
+}
+
+.mr-64 {
+    margin-right: 64px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.m-4 {
+    margin: 4px;
+}
+
+.m-8 {
+    margin: 8px;
+}
+
+.m-16 {
+    margin: 16px;
+}
+
+.m-32 {
+    margin: 32px;
+}
+
+.m-64 {
+    margin: 64px;
+}
+
+.mt-4 {
+    margin-top: 4px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-64 {
+    margin-top: 64px;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.pb-4 {
+    padding-bottom: 4px;
+}
+
+.pb-8 {
+    padding-bottom: 8px;
+}
+
+.pb-16 {
+    padding-bottom: 16px;
+}
+
+.pb-32 {
+    padding-bottom: 32px;
+}
+
+.pb-64 {
+    padding-bottom: 64px;
+}
+
+.pl-4 {
+    padding-left: 4px;
+}
+
+.pl-8 {
+    padding-left: 8px;
+}
+
+.pl-16 {
+    padding-left: 16px;
+}
+
+.pl-32 {
+    padding-left: 32px;
+}
+
+.pl-64 {
+    padding-left: 64px;
+}
+
+.pr-4 {
+    padding-right: 4px;
+}
+
+.pr-8 {
+    padding-right: 8px;
+}
+
+.pr-16 {
+    padding-right: 16px;
+}
+
+.pr-32 {
+    padding-right: 32px;
+}
+
+.pr-64 {
+    padding-right: 64px;
+}
+
+.p-0 {
+    padding: 0px;
+}
+
+.p-4 {
+    padding: 4px;
+}
+
+.p-8 {
+    padding: 8px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+.p-64 {
+    padding: 64px;
+}
+
+.pt-4 {
+    padding-top: 4px;
+}
+
+.pt-8 {
+    padding-top: 8px;
+}
+
+.pt-16 {
+    padding-top: 16px;
+}
+
+.pt-32 {
+    padding-top: 32px;
+}
+
+.pt-64 {
+    padding-top: 64px;
+}
+
+.p-auto {
+    padding: auto;
+}
+
 /* --- Components --- */
 button,
 input {
@@ -685,7 +902,6 @@ button:hover {
     filter: brightness(95%);
     transition: 0.3s;
 }
-
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
