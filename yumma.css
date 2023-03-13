@@ -3,8 +3,8 @@
 
 :root {
     --white: #fff;
-    --black: #000;
-
+    --light: #f7f9fe;
+    --gray: #e4e4e7;
     --red: #f87171;
     --orange: #fb923c;
     --yellow: #facc15;
@@ -15,10 +15,20 @@
     --indigo: #818cf8;
     --violet: #a78bfa;
     --pink: #e879f9;
-
-    --light: #f7f9fe;
-    --gray: #e4e4e7;
     --dark: #1e293b;
+    --black: #000;
+}
+
+body {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--dark);
+        color: var(--light);
+    }
 }
 
 /* --- Arrangement --- */
@@ -659,11 +669,23 @@
 }
 
 /* --- Components --- */
-.btn:hover {
+button,
+input {
+    background-color: var(--white);
+    border-color: var(--gray);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    color: var(--dark);
+    padding: 12px;
+}
+
+button:hover {
     cursor: pointer;
-    filter: brightness(0.85);
+    filter: brightness(95%);
     transition: 0.3s;
 }
+
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
